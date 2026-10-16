@@ -9,8 +9,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    redirect: '/question'
   },
   {
     path: '/user',
